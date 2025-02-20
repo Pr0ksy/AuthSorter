@@ -1,4 +1,4 @@
-# AuthSorter
+# AuthManager
 
 AuthSorter is a CMD-based tool designed to efficiently extract and organize login credentials from text files. It scans directories for specific files containing email:password pairs, URLs, and Discord tokens, then sorts them into categorized files for easier management.
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 python sorter.py
   ```
 
-# Usage
+# Usage Sorter
 
 1. Run sorter.py
 
@@ -26,10 +26,38 @@ python sorter.py
 
 4. Output files will be saved in the root folder where sorter.py is located
 
+
 ```sh
-📂 Sorder
+📂 Sorted
  ├── netflix.txt
  ├── spotify.txt
  ├── mozzartbet.txt
  ├── SortedDiscordTokens.txt
-  ```
+```
+
+
+
+# Usage Sorter
+
+1. Run checker.py
+
+2. Choose a directory containing the Sorted files
+
+3. Wait for the script to process and check all files
+
+4. Output files will be saved in the Checked folder in subfolders Valid/Invalid where checker.py is located
+
+```sh
+📂 Checked
+ ├── 📂 Valid
+ │   ├── Checked_netflix.txt
+ │   ├── Checked_spotify.txt
+ │   ├── Checked_mozzartbet.txt
+ │   ├── Checked_DiscordTokens.txt
+ │
+ ├── 📂 Invalid
+ │   ├── Checked_netflix.txt
+ │   ├── Checked_spotify.txt
+ │   ├── Checked_mozzartbet.txt
+ │   ├── Checked_DiscordTokens.txt
+```

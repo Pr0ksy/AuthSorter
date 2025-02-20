@@ -27,8 +27,8 @@ AuthSorter is a CMD-based tool designed to efficiently extract and organize logi
 4. Output files will be saved in the root folder where sorter.py is located
 
 ```sh
-📂 AuthSorter
- ├── sorter.py
+📂 Sorder
+ ├── netflix.txt
  ├── spotify.txt
  ├── mozzartbet.txt
  ├── SortedDiscordTokens.txt

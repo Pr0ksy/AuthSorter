@@ -2,18 +2,18 @@
 
 AuthSorter is a CMD-based tool designed to efficiently extract and organize login credentials from text files. It scans directories for specific files containing email:password pairs, URLs, and Discord tokens, then sorts them into categorized files for easier management.
 
-1.
+1. Clone
 ```sh
-   git clone https://github.com/Pr0ksy/AuthSorter.git
-   cd AuthSorter
+git clone https://github.com/Pr0ksy/AuthSorter.git
+cd AuthSorter
   ```
 2. Install required dependencies:
 ```sh
-  pip install -r requirements.txt
+pip install -r requirements.txt
   ```
 3. Run the script:
 ```sh
-   python sorter.py
+python sorter.py
   ```
 
 # Usage

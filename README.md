@@ -4,7 +4,7 @@ AuthSorter is a CMD-based tool designed to efficiently extract and organize logi
 
 1.
 ```sh
-   git clone https://github.com/YourUsername/AuthSorter.git
+   git clone https://github.com/Pr0ksy/AuthSorter.git
    cd AuthSorter
   ```
 2. Install required dependencies:

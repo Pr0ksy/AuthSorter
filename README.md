@@ -4,7 +4,7 @@ AuthManager is a CMD-based tool designed to efficiently extract, organize, and v
 
 1. Clone
 ```sh
-git clone https://github.com/Pr0ksy/AuthSorter.git
+git clone https://github.com/Pr0ksy/AuthManager.git
 cd AuthSorter
   ```
 2. Install required dependencies:
@@ -14,6 +14,8 @@ pip install -r requirements.txt
 3. Run the script:
 ```sh
 python sorter.py
+//
+python checker.py
   ```
 
 # Usage Sorter

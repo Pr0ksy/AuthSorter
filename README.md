@@ -1,6 +1,6 @@
 # AuthManager
 
-AuthSorter is a CMD-based tool designed to efficiently extract and organize login credentials from text files. It scans directories for specific files containing email:password pairs, URLs, and Discord tokens, then sorts them into categorized files for easier management.
+AuthManager is a CMD-based tool designed to efficiently extract, organize, and validate login credentials from text files. It scans directories for files containing email:password pairs, URLs, and Discord tokens, then sorts and checks the validity of accounts before organizing them into categorized files for easier management.
 
 1. Clone
 ```sh

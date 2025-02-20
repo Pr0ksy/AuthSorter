@@ -37,7 +37,7 @@ python sorter.py
 
 
 
-# Usage Sorter
+# Usage Checker
 
 1. Run checker.py
 
